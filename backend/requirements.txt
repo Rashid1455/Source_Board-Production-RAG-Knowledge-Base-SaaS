@@ -1,0 +1,10 @@
+-c constraints.txt
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+psycopg[binary]>=3.2,<4
+boto3>=1.36,<2
+httpx>=0.28,<1
+pydantic-settings>=2.7,<3
+pypdf>=6.0,<7
+python-multipart>=0.0.20,<1
+pytest>=8,<10

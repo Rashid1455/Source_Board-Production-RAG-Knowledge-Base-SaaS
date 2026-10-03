@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-13",
+  "transport": "HTTP through Next.js localhost:3000 proxy; real Gemini, database, storage and worker",
+  "registration": "passed; isolated test workspace",
+  "indexing": {
+    "status": "ready",
+    "pages": 1,
+    "chunk_count": 1,
+    "attempts": 1
+  },
+  "supported_question": {
+    "status": "answered",
+    "answer": "Employees may work remotely three days per week.",
+    "claims": [
+      {
+        "text": "Employees may work remotely three days per week.",
+        "evidence": [
+          {
+            "source_id": "812b87a0-c6c6-434e-8f53-d0baac832df3",
+            "quote": "Employees may work remotely three days per week."
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "812b87a0-c6c6-434e-8f53-d0baac832df3",
+        "document_id": "cc7565d3-9499-4846-b9d9-9bd9668d0498",
+        "text": "Employees may work remotely three days per week. Manager approval is required.",
+        "page": 1,
+        "name": "policy.txt",
+        "similarity": 0.8850835023994698
+      }
+    ]
+  },
+  "citations_and_original_download": "passed",
+  "unsupported_question": {
+    "status": "insufficient_evidence",
+    "answer": "Insufficient evidence. Your sources do not support a reliable answer. Try a more specific question or add relevant documents.",
+    "claims": [],
+    "sources": []
+  },
+  "history": "passed; both results saved",
+  "cleanup": "sample document and history removed; session logged out; empty test account remains"
+}
